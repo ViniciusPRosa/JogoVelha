@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+	background-color: #929292
+}
+
+.quadrado {
+	font-size:60px;
+	padding: 20px;
+	display: inline-block;
+	width: 50px;
+	cursor: pointer;
+	margin: 5px;
+	text-align: center;
+	background-color: #eee;
+	color: #eee;
+	border-style:solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.reiniciar {
+	border:none;
+	padding:15px 12px;
+	margin: 3px;
+	background-color:rgba(0,0,0,.50);
+	color:#fff;
+	cursor:pointer;
+	transition: .3s ease all;
+}
+
+.painel {
+	font-size: 20px;
+	margin: 5px;
+	text-decoration: underline;
+	font-style: italic;
+	font-family: "Tahoma", Times;
+}
