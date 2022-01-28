@@ -131,7 +131,7 @@ function reiniciar()
 }
 
 function velha(){
-	if(contador >= 9){
+	if(contador >= 9 && vencedor == null){
 		for (var i = 1; i <= 9; i++) {
 			var quadrado = document.getElementById(i);
 			quadrado.style.background = '#ff0000';
